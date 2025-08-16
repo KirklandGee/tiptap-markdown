@@ -1,8 +1,8 @@
 import { Extension, extensions } from '@tiptap/core';
-import { MarkdownTightLists } from "./extensions/tiptap/tight-lists";
-import { MarkdownSerializer } from "./serialize/MarkdownSerializer";
-import { MarkdownParser } from "./parse/MarkdownParser";
-import { MarkdownClipboard } from "./extensions/tiptap/clipboard";
+import { MarkdownTightLists } from "./extensions/tiptap/tight-lists.js";
+import { MarkdownSerializer } from "./serialize/MarkdownSerializer.js";
+import { MarkdownParser } from "./parse/MarkdownParser.js";
+import { MarkdownClipboard } from "./extensions/tiptap/clipboard.js";
 
 export const Markdown = Extension.create({
     name: 'markdown',
